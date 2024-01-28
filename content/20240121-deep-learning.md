@@ -4,7 +4,7 @@ aliases:
   - Deep Learning
 tags:
   - Inbox
-  - Algorithms
+  - Algorithm
   - AI
 ---
 
