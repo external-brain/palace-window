@@ -14,7 +14,7 @@ tags:
 
 ---
 
-1. [[1705467431-SGEI|Configuration Space]]
+1. [[20240121-configuration-space|Configuration Space]]
 2. [[20240122-154844-rigid-body-motions|Rigid-Body Motions]]
 3. [[20240122-154954-forward-kinematics|Forward Kinematics]]
 

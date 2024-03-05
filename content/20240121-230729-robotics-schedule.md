@@ -18,7 +18,7 @@ tags:
 
 0500-0600
 
-- [ ] Deep Learning for Robot Perception & Cognition
+- [ ] Manipulation Course
 
 0700-0730
 
@@ -26,13 +26,13 @@ tags:
 
 0730-0830
 
-- [ ] Modern Robotics - Mechanics, Planning, & Control
+- [ ] Manipulation Course
 
 1100-1200
 
-- [ ] Lunch: Video Lectures | DL w/ Vineeth
+- [ ] Lunch: Video Lectures
 
-1600-1700
+1615-1715
 
 - [ ] Exercise
 
