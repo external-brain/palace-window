@@ -1,7 +1,7 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
 import { version } from "../../package.json"
-import * from "../components"
+import LinkedInProfile from "../components"
 
 export default ((opts?: Options) => {
   function Footer({ displayClass }: QuartzComponentProps) {
