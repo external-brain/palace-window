@@ -6,8 +6,8 @@ import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 function Body({ children }: QuartzComponentProps) {
   return <div id="quartz-body">
     {children}
-    <script src="http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>
     <script src="https://platform.linkedin.com/badges/js/profile.js"></script>
+    <script src="http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>
   </div>
 }
 
