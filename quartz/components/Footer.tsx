@@ -14,8 +14,14 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <ul>
-          <img src="http://ghchart.josh-ramer.org/2024josh-ramer" alt="Josh Ramer's 2024 Github Contributions" />
-          <li>
+          <!-- GOES INTO HEAD -->
+<link rel="stylesheet" href="http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.css">
+
+<!-- GOES INTO BODY -->
+<div id="gh" data-login="josh-ramer"></div>
+
+<!-- GOES INTO THE END OF BODY -->
+<script src="http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>          <li>
             <div class="github-profile-badge" data-user="josh-ramer"></div>
           </li>
           <li>
