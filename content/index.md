@@ -1,10 +1,14 @@
 ---
 id: index
 aliases: []
-tags: []
-title: Peer Into My Mind
+tags:
+  - LandingPage
+  - Home
 ---
 
-[[20240127-112640-robotics]]
+# Palace Window
 
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+---
+Welcome to my ==mind palace==! I call this site ==Palace Window== because when you visit it, you're peering into my mind! This is where I continually distill the things I learn using ==markdown== & ==obsidian==.
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="josh-ramer" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/josh-ramer?trk=profile-badge">Josh R.</a></div>
