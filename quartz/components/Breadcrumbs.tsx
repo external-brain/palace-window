@@ -36,7 +36,7 @@ const defaultOptions: BreadcrumbOptions = {
   rootName: "Home",
   resolveFrontmatterTitle: true,
   hideOnRoot: true,
-  showCurrentPage: true,
+  showCurrentPage: false,
 }
 
 function formatCrumb(displayName: string, baseSlug: FullSlug, currentSlug: SimpleSlug): CrumbData {
