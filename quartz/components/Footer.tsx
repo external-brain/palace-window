@@ -5,7 +5,7 @@ import { LinkedInProfile } from "../components"
 
 export default ((opts?: Options) => {
   function Footer({ displayClass }: QuartzComponentProps) {
-    Profile = LinkedInProfile()
+    const Profile = LinkedInProfile()
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
