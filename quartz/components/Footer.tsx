@@ -13,9 +13,8 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
-        <p>
-          Created with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>, © {year}
-        </p>
+        <div class="github-profile-badge" data-user="josh-ramer"></div>
+        <script src="https://cdn.jsdelivr.net/gh/Rapsssito/github-profile-badge@latest/src/widget.min.js"></script>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
