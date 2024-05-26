@@ -37,7 +37,7 @@ export default (() => {
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
 
-        <link rel="stylesheet" href="http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.css" />
+        <link rel="stylesheet" href="https://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.css" />
       </head>
     )
   }
