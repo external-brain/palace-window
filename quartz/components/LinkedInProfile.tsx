@@ -9,7 +9,6 @@ export default (() => {
           data-type={"VERTICAL"} 
           data-vanity={"josh-ramer"}
           data-version={"v1"}>
-        <script src="https://platform.linkedin.com/badges/js/profile.js"></script>
       </div>
     );
   }

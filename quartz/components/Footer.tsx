@@ -11,6 +11,7 @@ export default ((opts?: Options) => {
         <hr />
         <div id="gh" data-login="josh-ramer"></div>
         <Profile></Profile>
+        <script src="https://platform.linkedin.com/badges/js/profile.js"></script>
         <script src="https://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>
       </footer>
     )
