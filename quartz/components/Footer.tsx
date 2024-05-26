@@ -18,8 +18,8 @@ export default ((opts?: Options) => {
           <li>
             <div id="gh" data-login="josh-ramer"></div>
           </li>
-          <LinkedInProfileBadge profileId='josh-ramer' theme='dark' size='large' orientation='horizontal' />
         </ul>
+        <LinkedInProfileBadge profileId='josh-ramer' theme='dark' size='large' orientation='horizontal' />
         <script src="https://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>
       </footer>
     )
