@@ -10,3 +10,4 @@ export default ((opts?: Options) => {
   }
 
   return Footer
+})
