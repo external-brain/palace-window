@@ -1,7 +1,7 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
 import { version } from "../../package.json"
-import LinkedInProfileBadge from 'react-linkedin-profile-badge';
+import { LinkedInProfileBadge } from 'react-linkedin-profile-badge';
 
 interface Options {
   links: Record<string, string>
