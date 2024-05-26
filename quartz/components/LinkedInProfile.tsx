@@ -2,7 +2,7 @@ export default (() => {
   function LinkedInProfile() {
     return (
       <div 
-          className={`badge-base LI-profile-badge ${rest?.className}`}
+          className={`badge-base LI-profile-badge`}
           data-locale={"en_US"} 
           data-size={"medium"} 
           data-theme={"dark"} 
