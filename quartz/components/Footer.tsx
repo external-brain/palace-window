@@ -226,4 +226,4 @@ function RenderBadges(window) {
     window.addEventListener('load', window.LIRenderAll, false);
   }
 
-});
+};
