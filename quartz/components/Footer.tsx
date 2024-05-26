@@ -11,8 +11,7 @@ export default ((opts?: Options) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
     return (
-      <footer class={`${displayClass ?? ""}`}>
-              </footer>
+      <footer class={`${displayClass ?? ""}`}></footer>
     )
   }
 
