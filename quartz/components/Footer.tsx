@@ -5,11 +5,12 @@ import { LinkedInProfile } from "../components"
 
 export default ((opts?: Options) => {
   function Footer({ displayClass }: QuartzComponentProps) {
+    Profile = LinkedInProfile()
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <div id="gh" data-login="josh-ramer"></div>
-        {LinkedInProfile()}
+        <Profile></Profile>
         <script src="https://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>
       </footer>
     )
