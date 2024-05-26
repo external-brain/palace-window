@@ -9,7 +9,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <div id="gh" data-login="josh-ramer"></div>
-        <LinkedInProfile></LinkedInProfile>
+        {LinkedInProfile()}
         <script src="https://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>
       </footer>
     )
