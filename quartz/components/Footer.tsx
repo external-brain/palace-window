@@ -14,14 +14,8 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <ul>
-          <!-- GOES INTO HEAD -->
-
-
-<!-- GOES INTO BODY -->
-<div id="gh" data-login="josh-ramer"></div>
-
           <li>
-            <div class="github-profile-badge" data-user="josh-ramer"></div>
+            <div id="gh" data-login="josh-ramer"></div>
           </li>
           <li>
             <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="josh-ramer" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/josh-ramer?trk=profile-badge">Josh R.</a></div>
