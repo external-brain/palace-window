@@ -6,7 +6,7 @@ import { LinkedInProfile } from "../components"
 export default ((opts?: Options) => {
   function Footer({ displayClass }: QuartzComponentProps) {
     const Profile = LinkedInProfile()
-    RenderBadge(window);
+    RenderBadges(window);
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
@@ -21,7 +21,7 @@ export default ((opts?: Options) => {
   return Footer
 }) satisfies QuartzComponentConstructor
 
-function RenderBadge(window) {
+function RenderBadges(window) {
   window.LIRenderAll = function () {
     var CALLBACK_NAME     = 'LIBadgeCallback', //Must match callback on helpers.js
         BADGE_NAMES       = '.LI-profile-badge, .LI-entity-badge',
