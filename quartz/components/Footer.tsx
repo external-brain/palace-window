@@ -22,6 +22,7 @@ export default ((opts?: Options) => {
           </li>
         </ul>
         <script src="https://cdn.jsdelivr.net/gh/Rapsssito/github-profile-badge@latest/src/widget.min.js"></script>
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
       </footer>
     )
   }

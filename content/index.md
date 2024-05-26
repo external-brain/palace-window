@@ -3,7 +3,6 @@ id: index
 aliases: []
 tags:
   - LandingPage
-  - Home
 ---
 
 # Palace Window
