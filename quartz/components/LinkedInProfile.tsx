@@ -1,7 +1,7 @@
 import LinkedInProfileBadge from 'react-linkedin-profile-badge';
 
 export default ((opts?: Options) => {
-  function Footer() {
+  function LinkedInProfile() {
     return (
       <LinkedInProfile>
         <LinkedInProfileBadge profileId='josh-ramer' theme='dark' size='large' orientation='horizontal' />
@@ -9,5 +9,5 @@ export default ((opts?: Options) => {
     )
   }
 
-  return Footer
+  return LinkedInProfile
 })
