@@ -11,7 +11,19 @@ export default ((opts?: Options) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
     return (
-      <footer class={`${displayClass ?? ""}`}></footer>
+      <footer class={`${displayClass ?? ""}`}>
+        <hr />
+        <ul>
+          <li>
+            <div id="gh" data-login="josh-ramer"></div>
+          </li>
+          <li>
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="josh-ramer" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/josh-ramer?trk=profile-badge">Josh R.</a></div>
+          </li>
+        </ul>
+        <script src="https://platform.linkedin.com/badges/js/profile.js"></script>
+        <script src="https://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>
+      </footer>
     )
   }
 
