@@ -12,17 +12,7 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <hr />
-        <ul>
-          <li>
-            <div id="gh" data-login="josh-ramer"></div>
-          </li>
-          <li>
-            
-          </li>
-        </ul>
-        <script src="http://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>
-      </footer>
+              </footer>
     )
   }
 
