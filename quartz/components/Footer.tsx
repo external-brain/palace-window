@@ -1,7 +1,7 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
 import { version } from "../../package.json"
-import { LinkedInProfileBadge } from 'react-linkedin-profile-badge';
+import LinkedInProfileBadge from 'react-linkedin-profile-badge';
 
 interface Options {
   links: Record<string, string>
@@ -18,9 +18,7 @@ export default ((opts?: Options) => {
           <li>
             <div id="gh" data-login="josh-ramer"></div>
           </li>
-          <li>
-            <LinkedInProfileBadge profileId='josh-ramer' theme='dark' size='large' orientation='horizontal' />
-          </li>
+          <LinkedInProfileBadge profileId='josh-ramer' theme='dark' size='large' orientation='horizontal' />
         </ul>
         <script src="https://lengthylyova.pythonanywhere.com/static/gh-contrib-graph/gh.js"></script>
       </footer>
