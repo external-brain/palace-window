@@ -220,6 +220,9 @@ export default (() => {
 
   };
 
-  RenderBadges(window);
+  if(typeof window !== 'undefined')
+  {
+    RenderBadges(window);
+  }
   return LinkedInProfile
 })
