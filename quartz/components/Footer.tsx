@@ -14,6 +14,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <ul>
+          <img src="http://ghchart.josh-ramer.org/2024josh-ramer" alt="Josh Ramer's 2024 Github Contributions" />
           <li>
             <div class="github-profile-badge" data-user="josh-ramer"></div>
           </li>
