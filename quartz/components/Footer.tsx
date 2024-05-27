@@ -8,8 +8,8 @@ export default (() => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
-        <img src="../assets/imgs/github-contributions.png" />
-        <img src="../assets/imgs/linkedin-badge.png" />
+        <img src="assets/imgs/github-contributions.png" />
+        <img src="assets/imgs/linkedin-badge.png" />
       </footer>
     )
   }
