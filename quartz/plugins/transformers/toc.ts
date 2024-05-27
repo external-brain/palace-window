@@ -7,6 +7,7 @@ import { wikilinkRegex } from "./ofm"
 
 export interface Options {
   maxDepth: 1 | 2 | 3 | 4 | 5 | 6
+  minDepth: 1 | 2 | 3 | 4 | 5
   minEntries: 1
   showByDefault: boolean
   collapseByDefault: boolean
@@ -14,6 +15,7 @@ export interface Options {
 
 const defaultOptions: Options = {
   maxDepth: 3,
+  minDepth: 1,
   minEntries: 1,
   showByDefault: true,
   collapseByDefault: false,
@@ -42,7 +44,7 @@ export const TableOfContents: QuartzTransformerPlugin<Partial<Options> | undefin
               const toc: TocEntry[] = []
               let highestDepth: number = opts.maxDepth
               visit(tree, "heading", (node) => {
-                if (node.depth <= opts.maxDepth) {
+                if (node.depth >= opts.minDepth && node.depth <= opts.maxDepth) {
                   let text = toString(node)
 
                   // strip link formatting from toc entries
