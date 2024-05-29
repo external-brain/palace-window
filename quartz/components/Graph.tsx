@@ -57,6 +57,7 @@ export default ((opts?: GraphOptions) => {
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
     return (
       <div class={`graph ${displayClass ?? ""}`}>
+        <hr/>
         <h3>Graph View</h3>
         <div class="graph-outer">
           <div id="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
