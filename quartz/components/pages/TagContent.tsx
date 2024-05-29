@@ -10,6 +10,10 @@ import { htmlToJsx } from "../../util/jsx"
 const numPages = 10
 function TagContent(props: QuartzComponentProps) {
   const { tree, fileData, allFiles } = props
+  if (fileData === undefined) {
+    console.log("---------SLUG:\n", tree, "\n-----------")
+    exit()
+  }
   const slug = fileData.slug
 
   if (!(slug?.startsWith("tags/") || slug === "tags")) {

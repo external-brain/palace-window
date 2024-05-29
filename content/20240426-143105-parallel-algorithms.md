@@ -14,6 +14,7 @@ tags:
 ==Sequential algorithms== specify a sequence of steps that each perform one operation, but ==Parallel algorithms== perform multiple operations per step. There are two core types of problems that are solved by parallel algorithms, ==transformations== & ==reductions==. Generally, the approach to ==transformation problems== is to assign one thread per output due to the fact that these problems generally have input size equal to output size. ==Reduction problems== are fundamentally different & generally more difficult to solve because they reduce the size of the input to produce the output.
 
 ```table-of-contents
+minLevel:2
 ```
 
 &nbsp;

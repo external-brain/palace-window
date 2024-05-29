@@ -54,7 +54,7 @@ button#toc {
 
   @for $i from 0 through 6 {
     & .depth-#{$i} {
-      padding-left: calc(1rem * #{$i});
+      padding-left: calc(2rem + 2rem * #{$i});
     }
   }
 }

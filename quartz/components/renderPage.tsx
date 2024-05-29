@@ -185,11 +185,17 @@ export function renderPage(
     </div>
   )
 
+
+  var toc = null;
   const RightComponent = (
     <div class="right sidebar">
-      {right.map((BodyComponent) => (
-        <BodyComponent {...componentData} />
-      ))}
+      {right.map((BodyComponent) => {
+        if (BodyComponent.name === "TableOfContents") {
+          componentData.toc = <BodyComponent {...componentData} />
+          return
+        }
+        return <BodyComponent {...componentData} />
+      })}
     </div>
   )
 
