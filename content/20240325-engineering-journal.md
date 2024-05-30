@@ -13,6 +13,10 @@ tags:
 ---
 The idea is to keep track of what's being worked on, provide a place to quickly create notes for later refinement & organization, & to keep thoughts on track & organized. The engineering journal is to be used in concert with the [[20240121-230729-schedule|Schedule]]. Each increment of time will be executed with a Pomodoro timer, even breaks should be timed, in order to keep you from accidentally getting caught up into something else & to help develop intuition for how long certain tasks take. Knowing this might allow you to improve your speed.
 
+<div class="iframe-container">
+  <iframe width="944" height="540" src="https://www.youtube.com/embed/GRA_fwbdrtc" title="My FULL Obsidian Zettelkasten Workflow in 10 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ```table-of-contents
 minLevel:2
 ```
@@ -58,8 +62,6 @@ Figure out a way to contribute to llama.cpp kernels. Could I make tests for diff
 Work quickly through knowledge adding notes to concepts in Obsidian, & creating in-depth projects with thorough markdown descriptions for display in Obsidian. The projects should do custom [[20240424-114510-gpu-programming|GPU Programming]].
 
 ### Deep Learning from Scratch
-
-Make
 
 - [ ] [[20240121-deep-learning#deep-learning|Deep Learning]]
 
