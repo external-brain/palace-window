@@ -5,7 +5,6 @@ aliases:
 tags:
   - Inbox
   - EngineeringJournal
-  - Private
 ---
 
 # Engineering Journal
