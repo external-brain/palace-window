@@ -27,7 +27,7 @@ tags:
 - [ ] Programming sessions should probably be conducted in a similar manner. Could they also be dispersed over these same concepts in code blocks & while added to project files? If it's a concept I'm familiar with, I should copy & paste, but if it's something challenging, it's a good chance to refine knowledge.
 - [ ] Should we fit pomodoro timers into this somehow? We probably should do that given the finiteness of time.
 - [ ] Improve markdown styling through time & speed as well.
-- [ ] This system should make use of the [[1705460166-FPLN|Diagramming System]]
+- [ ] This system should make use of the [[20240116-diagramming-system|Diagramming System]]
 
 ---
 

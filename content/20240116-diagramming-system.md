@@ -11,7 +11,9 @@ tags:
 ---
 
 # Diagramming System
+Use venn diagram system for anything quick, i.e. just use block mode in neovim to make box & arrow diagrams. Anything complicated is better in DOT.
 
+It’s also easy to diagram in Freeform & paste into Obsidian!
 ## Does Obsidian play well with GraphViz DOT language?
 
 ``` dot

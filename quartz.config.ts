@@ -6,9 +6,7 @@ const config: QuartzConfig = {
     pageTitle: "🏰 Palace Window",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: { provider: 'google', tagId: 'G-KJHZWNWLCE' },
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",

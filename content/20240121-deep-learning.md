@@ -11,7 +11,7 @@ tags:
 # Deep Learning
 
 ---
-Is a specific type of machine learning in which the number of ==hidden layers== >= 1. A ==hidden layer== is any layer between the ==input layer== & ==output layer==.
+Is a specific type of machine learning employing neural networks in which the number of ==hidden layers== >= 1. A ==hidden layer== is any layer between the ==input layer== & ==output layer==.
 
 ```table-of-contents
 minLevel:2
@@ -46,3 +46,9 @@ Another way to define ==backpropagation== is in terms of a computation graph. Ba
 
 ---
 Is ==forward propagation== of weights & input data values through a neural network to the output of the network & into the ==loss function== followed by ==backward propagation== from the loss function all the way to the input weights followed by an update of the network weights in the negative direction of the gradient. This update uses a learning rate, i.e. `wi += l.r. * -g_wi`. After some iterations of ==gradient descent==, we should find that our loss function output is decreasing.
+
+&nbsp;
+
+## Neural Network Architectures
+
+---
