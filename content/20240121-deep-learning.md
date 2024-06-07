@@ -38,7 +38,8 @@ Is a way to train models in which the ==objective==|==label== is automatically c
 ---
 Calculates the gradient of some loss function w.r.t. the weights of a neural network s.t. the gradient can be used to update the weights of the network in the direction of decreasing loss, minimizing the loss function. The ==gradient== is a vector of ==partial derivatives== which points in the direction of steepest ascent or greatest change. A ==derivative== is how much a function changes when the input is slightly changed in the positive direction over the size of the change in the input. A partial derivative of a function of multiple independent variables is a derivative w.r.t. one of them, it answers the question, how much does this function change w.r.t. this independent variable.
 
-Another way to define ==backpropagation== is in terms of a computation graph. Backpropagation is the recursive application of the chain rule backwards through a ==computation graph==. At the completion of one backward propagation, each node in the computation graph will have computed a partial derivative of the loss function w.r.t. itself. The ==partial derivative== of the loss function w.r.t. a node is `dL/dn = dL/dparent * dparent/dn`.
+Another way to define ==backpropagation== is in terms of a computation graph. Backpropagation is the recursive application of the chain rule backwards through a [[computation graph]]. At the completion of one backward propagation, each node in the computation graph will have computed a partial derivative of the loss function w.r.t. itself. The ==partial derivative== of the loss function w.r.t. a node is `dL/dn = dL/dparent * dparent/dn`.
+
 
 &nbsp;
 
