@@ -8,7 +8,7 @@ tags:
 # Peer Into My Mind
 
 ---
-Welcome to my ==mind palace==! I call this project ==Palace Window== because when you visit it, you're peering into my mind! This is where I continually distill the things I learn using ==markdown== & ==obsidian==. I have listed a few interesting links below, you can hover over them to get a quick preview & navigate using search or breadcrumbs at the top of the page. There is also a graph in the footer in case you're a visual person. Each page has a table of contents near the top.
+Welcome to my ==mind palace==! I call this project ==Palace Window== because when you visit it, you're peering into my mind! This is where I continually distill the things I learn using ==markdown== & ==obsidian==. I have listed a few interesting links below, you can hover over them to get a quick preview & navigate by clicking on links or using the search feature. If you want to go backward, you can either use native browser navigation or you can look at the graph at the bottom of the page & navigate by clicking on nodes. Each page has a table of contents near the top for convenient local navigation.
 
 - [[20240424-114510-gpu-programming#GPU Programming|GPU Programming]]
 - [[20240426-143105-parallel-algorithms#Parallel Algorithms|Parallel Algorithms]]
