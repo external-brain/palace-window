@@ -75,6 +75,7 @@ Then, \__call_main is invoked which calls our main function.
 The ==cross compiler== takes in .c & .h files & builds them into ==object files==. One popular format for object files is the ==ELF== format which is not very readable, but ==objdump== can be used to obtain a human readable representation. ELF is a standard & compatible with many different tools.
 
 The object files coming out of the compiler have no address information. The ==linker== takes in the object files, finds dependencies from the ==standard library== or other outside sources, & links them together into another object file. At this point, the ELF file contains ==relocatable code==, i.e. it uses relative addresses or offsets instead of absolute addresses & can run at any memory address. This increases flexibility & enables efficient memory usage.
+
 ![embedded-systems-build-process.png](assets/imgs/embedded-systems-build-process.png)
 
 ### ELF Files
@@ -82,6 +83,7 @@ The object files coming out of the compiler have no address information. The ==l
 Have ==SECTIONS:== which include ==.data==, ==.bss==, & ==.text among others. These correspond to initialized variables, uninitialized variables, & code respectively. The linker has to decide where in memory everything will actually go, so the object files that feed into the linker have offsets, not absolute addresses. Final ELF files are called ==ELF images==. Linkers & compilers are processor specific. Linkers need to know how to fix object file addresses & opcodes for their specific processor.
 
 When building the final image, the linker starts with two sections, ==Exported symbols:== & ==Undefined symbols:==. The vector table is the only entry in either, it appears in the undefined symbols section. For each object file provided to the linker, the linker adds all the exports to the final image exports & all the imports not in the exports to the undefined list. If an export that resolves an undefined item is encountered, it is removed from the undefined list. Next, the linker checks all libraries, standard & otherwise, for items in the undefined list until they are all found or the linker fails with undefined list items remaining.
+
 ![linker-process.png](assets/imgs/linker-process.png)
 
 ### The Vector Table & Interrupt Handlers
