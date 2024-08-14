@@ -11,16 +11,13 @@ tags:
 # Search Algorithms
 
 ---
-
-## What is a search algorithm?
-
-??????
 The state space graph has nodes representing (possibly infinitely many) states of the world & edges which represent actions that transition between them.
 
-## What are the categories of search algorithms?
+```table-of-contents
+minLevel:2
+```
+
+## Types of Search Algorithms
 
 1. [[20240226-074330-graph-search|Graph Search]] (aka graph traversal)
 2. Others...
-
-<!-- markdownlint-disable-file MD013 -->
-<!-- markdownlint-disable-file MD025 -->

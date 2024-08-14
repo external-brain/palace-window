@@ -11,6 +11,3 @@ tags:
 # Configuration Space
 
 ---
-
-<!-- markdownlint-disable-file MD013 -->
-<!-- markdownlint-disable-file MD025 -->
