@@ -29,7 +29,7 @@ The ==SP== register is the ==stack pointer== which points to the top of the stac
 ---
 ==Structures== have their members stored in order in memory. The most succinct declaration which allows you to declare the struct a type and give it a type name in one line is as follows:
 
-```C
+```c
 typedef struct {
   uint8_t x;
   uint8_t y;
@@ -38,9 +38,9 @@ typedef struct {
 
 The `__packed` keyword tells the compiler to allow aligning struct members on odd addresses, i.e. do not add padding to avoid this. Accessing packed values might take extra instructions in some processors like ==Cortex M0== where the ==halfword== instructions are only allowed on aligned data. ==Packing== should usually be avoided, but can occasionally be used to save space or speed up operations in data intensive applications. The `__packed` keyword also works in Unions to keep from padding before or after members. The advantages of ==packing== are that:
 
-    1. More data can fit into a cache line which reduces cache misses & improves performance.
-    2. The memory footprint is reduced.
-    3. The less data that needs transferred, the faster the transfer can be.
+1. More data can fit into a cache line which reduces cache misses & improves performance.
+2. The memory footprint is reduced.
+3. The less data that needs transferred, the faster the transfer can be.
 
 ==Unions== are like structures except that their members occupy the same space in memory.
 &nbsp;
