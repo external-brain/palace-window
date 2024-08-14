@@ -92,7 +92,7 @@ One of the undefined symbols section entries is the ==__vector_table== which is 
 
 In order to provide your own ==vector table==, just define `const int __vector_table[] @ ".intvec" = {}` which will be placed in the export list in the object file produced by the compiler before the linker runs. You have to be careful when writing code for this file because nothing has been set up yet, e.g. the stack pointer is not set, the .bss section has not been cleared, & the .data section has not been copied from ==ROM== to ==RAM==. Most processor startup code has to be written in assembly, but the CortexM series is designed to avoid low level assembly as much as possible. `Const` is there to force the linker to place the vector table in ROM & `@ ".intvec"` is an `IAR` extension that forces the linker to place the vector table in the `.intvec` section at address zero. Here is what the vector table could look like for the ==tm4c== processor:
 
-```C
+```c
 /* startup code for TM4C MCU */
 #include "tm4c_cmsis.h"
 
@@ -410,7 +410,7 @@ __stackless void Unused_Handler(void) {
 
 It is also common to have a ==board support package== with `assert_failed` & `SysTick_Handler`.
 
-```C
+```c
 /* Board Support Package */
 #include "tm4c_cmsis.h"
 
