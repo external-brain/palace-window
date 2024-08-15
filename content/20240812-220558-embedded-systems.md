@@ -433,7 +433,7 @@ When the interrupt line is low, the processor continues to pull in instructions 
 This enables timers that don't lock up the processor by polling. Instead, the ==System Clock==, special peripheral hardware driven by the CPU clock, has a register that is decremented with every clock cycle. This register can be set by programs & it will trigger an interrupt when it reaches zero. The system clock can be different on each processor, but the way that it works in the `t4mc` is shown below.
 <!--TODO: make more clear when you understand it).-->
 
-```C
+```c
 SysTick->LOAD = SYS_CLOCK_HZ * (some factor);  // set the timer start value
 SysTick->VAL = 0U;                             // clear on write register
 // clock src, interrupt enable, counter enable
